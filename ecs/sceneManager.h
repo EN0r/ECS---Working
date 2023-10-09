@@ -14,6 +14,7 @@ public:
 		sceneList.clear();
 		delete currentWorld;
 		delete this;
+		// Test
 	}
 
 	inline bool addWorld(world* scene, int& id)
